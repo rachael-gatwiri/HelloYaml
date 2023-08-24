@@ -1,0 +1,19 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "yaml workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachael-gatwiri/HelloYaml.git"
+  },
+  "author": "rachael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachael-gatwiri/HelloYaml/issues"
+  },
+  "homepage": "https://github.com/rachael-gatwiri/HelloYaml#readme"
+}
