@@ -23,6 +23,5 @@ jobs:
         
       - name: Run index.js
         run: node index.js
-      - name: run a one-line script
-        run: echo Hello World!
-      
+
+     
