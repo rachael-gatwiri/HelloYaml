@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - master
+      - main
 
 jobs:
   build:
@@ -21,19 +22,6 @@ jobs:
         
       - name: Run index.js
         run: node index.js
-
-name: hello
-on: [push]
-jobs:
-build:
-
-run-on: ubuntu-latest
-
-steps:
--uses : action/checkou@v1
--name: run a one-line script
-    run: echo Hello World!
--name: Run a multi-line script
-    run: |
-    echo Add other actions to build,
-    echo test, and deoply your project
+      - name: run a one-line script
+        run: echo Hello World!
+      
