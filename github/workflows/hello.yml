@@ -1,4 +1,4 @@
-name: NODE.js CI
+name: NODE
 on:
   push:
     branches:
@@ -24,4 +24,4 @@ jobs:
       - name: Run index.js
         run: node index.js
 
-     
+    
